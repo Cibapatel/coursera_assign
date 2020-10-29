@@ -84,3 +84,17 @@ h2{
    width:660px;
    }
 }
+/*mobile view*/
+@media(min-width: 992px){
+    #p1{
+        width: 50%;
+       
+    }
+    #p2{
+        width: 50%;
+       
+    }
+    #p3 {
+       width: 50%;
+       }
+    }
