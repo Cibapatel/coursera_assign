@@ -73,7 +73,7 @@ h2{
 /*tablet view*/
 @media(min-width:768px) and (max-width: 991px){
 #p1{
-    width: 200px;
+    width: 300px;
    
 }
 #p2{
