@@ -57,17 +57,30 @@ h2{
     overflow: scroll;
 }
 /*desktop view*/
+@media(min-width: 992px){
+#p1{
+    width: 300px;
+   
+}
+#p2{
+    width: 300px;
+   
+}
+#p3 {
+   width: 300px;
+   }
+}
+/*tablet view*/
 @media(min-width:768px) and (max-width: 991px){
 #p1{
     width: 200px;
    
 }
 #p2{
-    widows: 200px;
+    width: 200px;
    
 }
 #p3 {
    width:660px;
-   
-  
+   }
 }
