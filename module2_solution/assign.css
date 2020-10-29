@@ -1,0 +1,73 @@
+*{
+    background-color: rgb(216, 168, 200);
+    text-align: center;
+    background-image: "books.jpeg";
+}
+h1 {
+    background-color: rgb(255, 189, 189);
+    font-style: italic;
+}
+h2{
+    color: rgb(78, 31, 126);
+    font-style: italic;
+}
+#p1 {
+    background-color: seashell;
+    padding: 10px 50px 10px 50px;
+    font-style: oblique;
+    width:50%;
+    margin:30px;
+    border: 5px solid black ;
+    border-color: purple;
+    border-collapse: separate;
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    height: 350px;
+    overflow: scroll;
+    }
+#p2 {
+    background-color: seashell;
+    padding: 10px 50px 10px 50px;
+    font-style: oblique;
+    width:50%;
+    margin:30px;
+    border: 5px solid black ;
+    border-collapse: separate;
+    border-color: purple;
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    height: 350px;
+    overflow: scroll;
+   }
+#p3{
+    background-color: seashell;
+    padding: 10px 50px 10px 50px;
+    font-style: oblique;
+    width:50%;
+    border: 5px solid black ;
+    border-collapse: separate;
+    margin:30px;
+    border-color: purple;
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    height: 350px;
+    overflow: scroll;
+}
+/*desktop view*/
+@media(min-width:768px) and (max-width: 991px){
+#p1{
+    width: 200px;
+   
+}
+#p2{
+    widows: 200px;
+   
+}
+#p3 {
+   width:660px;
+   
+  
+}
