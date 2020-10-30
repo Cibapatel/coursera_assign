@@ -59,15 +59,15 @@ h2{
 /*desktop view*/
 @media(min-width: 992px){
 #p1{
-    width: 300px;
+    width: 250px;
    
 }
 #p2{
-    width: 300px;
+    width: 250px;
    
 }
 #p3 {
-   width: 300px;
+   width: 250px;
    }
 }
 /*tablet view*/
