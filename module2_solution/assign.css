@@ -77,24 +77,24 @@ h2{
    
 }
 #p2{
-    width: 200px;
+    width: 300px;
    
 }
 #p3 {
-   width:660px;
+   width:670px;
    }
 }
 /*mobile view*/
-@media(min-width: 992px){
+@media(min-width: 767px){
     #p1{
-        width: 50%;
+        width: 660px;
        
     }
     #p2{
-        width: 50%;
+        width: 660px;
        
     }
     #p3 {
-       width: 50%;
+       width: 660px;
        }
     }
