@@ -57,7 +57,7 @@ h2{
     overflow: scroll;
 }
 /*mobile view*/
-@media(min-width: 767px){
+@media only screen and (min-width: 768px){
     #p1{
         width: 660px;
        
@@ -70,17 +70,3 @@ h2{
        width: 660px;
        }
     }
-/*tablet view*/
-@media(min-width:768px) and (max-width: 991px){
-#p1{
-    width: 50%;
-   
-}
-#p2{
-    width: 50%;
-   
-}
-#p3 {
-   width: 100%;
-   }
-}
