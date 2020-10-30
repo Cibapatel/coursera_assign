@@ -56,20 +56,6 @@ h2{
     height: 350px;
     overflow: scroll;
 }
-/*tablet view*/
-@media(min-width:768px) and (max-width: 991px){
-#p1{
-    width: 300px;
-   
-}
-#p2{
-    width: 300px;
-   
-}
-#p3 {
-   width:670px;
-   }
-}
 /*mobile view*/
 @media(min-width: 767px){
     #p1{
@@ -84,3 +70,17 @@ h2{
        width: 660px;
        }
     }
+/*tablet view*/
+@media(min-width:768px) and (max-width: 991px){
+#p1{
+    width: 50%;
+   
+}
+#p2{
+    width: 50%;
+   
+}
+#p3 {
+   width: 100%;
+   }
+}
